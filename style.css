@@ -1,0 +1,52 @@
+*{box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+ 
+}
+body{ background: linear-gradient(40deg,#8427db,#5acaff);
+    height: 100vh;
+}
+.container{
+   border-radius: 10px;
+    position: absolute;
+    background:url(log.jpeg);
+    top: 15%;
+    left: 15%;
+    right: 18%;
+    bottom:10%;
+     text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 15px 30px rgb(0, 0, 0);/* الظل */
+}
+.container .content h1 {
+
+font-size: 18vw;
+color: white;
+
+}
+.container .content h3{
+    font-size: 1.5em;
+   margin-bottom: 20px;
+   position: relative;
+   padding: 10px 20px;
+   font-weight: 300;  /* سمك الخط */
+   display: inline-block; 
+    background-color:white ;
+}
+.container .content p{
+     font-size:20px;
+    color: white;
+}
+.container .content a{
+ text-decoration: none;
+ position: relative;
+color: white;
+margin-top: 25px;
+padding: 10px 25px;
+border-radius: 10px;
+background: #ff0562;
+display: inline-block;
+
+}
